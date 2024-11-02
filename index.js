@@ -19,3 +19,4 @@ inquirer.createPromptModule()([
         qrCode.pipe(fs.createWriteStream(`QrCode/${answers.filename}.png`));
         console.log('QR code generated successfully!');
     });
+   
